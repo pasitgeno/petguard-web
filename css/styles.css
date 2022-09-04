@@ -1,0 +1,156 @@
+#title{
+  background-color: #F3F4F6;
+  color: #000;
+}
+p{
+  font-family: "Montserrat";
+}
+h1{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.title-padding{
+  padding-bottom: 50px;
+}
+.text-title{
+  font-family: "Montserrat";
+font-size: 18px;
+line-height: 27px;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.pic-title{
+  position: absolute;
+  width: 768px;
+  height: 436px;
+  /* left: 950px;
+  top: 400px; */
+
+}
+
+/* navigation-bar */
+.navbar{
+  padding-bottom: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight:normal;
+}
+/* download-button */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+/* features */
+#features{
+  padding: 3% 15%;
+  background-color: #fff;
+  /* position: relative; */
+  z-index: 1;
+}
+/* features-icon */
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.af-feature{
+  font-size:4rem;
+  color:#ef8172;
+  margin-bottom: 2rem;
+}
+.p-features{
+  color: #8f8f8f
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* testimonials */
+#testimonials{
+
+  text-align: center;
+  background-color:#F9FAFC;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-image{
+  width: 20%;
+  /* border-radius: 100%; */
+  margin: 20px;
+}
+/* press */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+.provide-pic{
+  width: 60%;
+  height: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* pricing section*/
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.bg-box1{
+  position: absolute;
+  z-index: -1;
+width: 126.11px;
+height: 179.54px;
+left: 20%;
+background: #35B9E2;
+border-radius: 14px;
+transform: rotate(13.85deg);
+}
+.bg-box2{
+  position: absolute;
+  z-index: -1;
+width: 216.21px;
+height: 316.9px;
+left: 662.62px;
+background: #35B9E2;
+border-radius: 17px;
+transform: rotate(43.12deg);
+}
+.price{
+  position: absolute;
+  width: 355px;
+  height: 451px;
+  left: 294px;
+
+}
+.pricing-column{
+  padding: 3% 2%;
+}
