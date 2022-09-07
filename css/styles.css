@@ -1,220 +1,224 @@
-/* title */
-#title {
+#title{
   background-color: #F3F4F6;
   color: #000;
-  padding-left: 40px;
-  padding-right: 40px;
-}
 
-p {
+}
+p{
   font-family: "Montserrat";
 }
-
-h1 {
+h1{
   font-family: "Montserrat";
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
 }
-
-h3 {
+h3{
   font-family: "Montserrat";
   font-weight: bold;
   font-size: 1.5rem;
   line-height: 1.5;
 }
-
-h2 {
+h2{
   font-family: "Montserrat";
   font-weight: bold;
   font-size: 3rem;
   line-height: 1.5;
 }
-
-.title-padding {
+/* img{
+  position: absolute;
+} */
+.title-padding{
   padding-bottom: 50px;
 }
-
-.text-title {
+.text-title{
   font-family: "Montserrat";
-  font-size: 18px;
-  line-height: 27px;
+font-size: 18px;
+line-height: 27px;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.pic-title{
+  position: absolute;
+  width: 45%;
+  height: 50%;
+  bottom: 10%;
+  left: 45%;
 }
 
-.container-fluid {
-  padding-right: 0;
-  padding-left: 0;
-  margin-right: auto;
-  margin-left: auto
+.btn-consult{
+  padding-top: 20px;
+  background-color: #35B9E2;
+  width: 180px;
+  height: 70px;
+  border-radius: 30px 30px;
 }
-
-.pic-title {
-  position: relative;
-  right: 50px;
-  top: 70px;
-  width: 130%;
-  height: 70%;
-  /* left: 950px;
-  top: 400px; */
+.btn-info, .btn-info:hover, .btn-info:active, .btn-info:visited {
+    background-color: #35B9E2 !important;
 }
-
-/* navigation-bar */
-.navbar {
-  padding-bottom: 2.5rem;
-}
-
-.nav-item {
-  padding: 0 18px;
-}
-
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.nav-link {
-  font-size: 1.2rem;
+.rounded-corners3 {
+  border-radius: 37px;
+  padding: 8px 30px;
   font-family: "Montserrat";
-  font-weight: normal;
+  color: white;
 }
-
-/* download-button */
-.download-button {
-  margin: 5% 3% 5% 0;
+.rounded-corners {
+  border-radius: 37px;
+  padding: 16px 60px;
+  font-family: "Montserrat";
+  color: white;
 }
-
-@media (max-width: 800px) {
-  #title .container-fluid {
+.rounded-corners2 {
+  border-radius: 37px;
+  padding: 16px 60px;
+  font-family: "Montserrat";
+}
+@media (max-width: 1080px) {
+  #title {
     text-align: center;
   }
 
   .pic-title {
     position: static;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    width: 60%;
-    height: 95%;
-    padding: 50px 0 50px 0;
+    transform: rotate(0);
+    width: 100%;
+    height: 100%;
+
   }
 }
 
+.ft-div{
+  width: 110%;
+  height: 100%;
+}
+/* navigation-bar */
+.navbar{
+  padding-bottom: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight:normal;
+}
+/* download-button */
+.download-button{
+  margin:5% 3% 5% 0;
+}
 /* features */
-#features {
+#features{
   padding: 3% 15%;
   background-color: #fff;
   /* position: relative; */
   z-index: 1;
 }
-
+.hoverDiv {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+backdrop-filter: blur(4px);
+  border-radius: 33px;
+}
+.hoverDiv:hover {
+  background: #ffffff;
+  box-shadow: -2px 60px 70px rgba(196, 196, 196, 0.37);
+backdrop-filter: blur(4px);
+}
 /* features-icon */
-.feature-box {
+.feature-box{
   text-align: center;
   padding: 5%;
+  margin-bottom: 5%;
 }
-
-.af-feature {
-  font-size: 4rem;
-  color: #ef8172;
+.af-feature{
+  font-size:4rem;
+  color:#ef8172;
   margin-bottom: 2rem;
 }
-
-.p-features {
+.p-features{
   color: #8f8f8f
 }
-
-.icon:hover {
+.icon:hover{
   color: #ff4c68;
 }
-
 /* testimonials */
-#testimonials {
+#testimonials{
+
   text-align: center;
-  background-color: #F9FAFC;
+  background-color:#F9FAFC;
   color: #fff;
 }
-
-.carousel-item {
+.carousel-item{
   padding: 7% 15%;
 }
-
-.testimonial-image {
+.testimonial-image{
   width: 20%;
   /* border-radius: 100%; */
   margin: 20px;
 }
-
 /* press */
-#press {
+#press{
   background-color: #ef8172;
   text-align: center;
   padding-bottom: 3%;
 }
-
-.press-logo {
+.press-logo{
   width: 15%;
-  margin: 20px 20px 50px;
+  margin:20px 20px 50px;
 }
-
-.provide-pic {
+.provide-pic{
   width: 60%;
   height: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 /* pricing section*/
-#pricing {
+#pricing{
   text-align: center;
   padding: 100px;
   position: relative;
 }
-
-.bg-box1 {
+.bg-box1{
   position: absolute;
   z-index: -1;
-  width: 126.11px;
-  height: 179.54px;
-  left: 10%;
-  background: #35B9E2;
-  border-radius: 14px;
-  transform: rotate(13.85deg);
+width: 126.11px;
+height: 179.54px;
+left: 20%;
+background: #35B9E2;
+border-radius: 14px;
+transform: rotate(13.85deg);
 }
-
-.bg-box2 {
+.bg-box2{
   position: absolute;
-
   z-index: -1;
-  width: 20%;
-  height: 30%;
-  left: 32%;
-  bottom: 26%;
-  background: #35B9E2;
-  border-radius: 17px;
-  transform: rotate(43.12deg);
+  width: 15%;
+height: 30%;
+left: 32%;
+bottom: 26%;
+background: #35B9E2;
+border-radius: 17px;
+transform: rotate(43.12deg);
 }
-
-.price {
+.price{
   position: absolute;
-  width: 40%;
-  height: 42%;
-  left: 10%;
-}
+  width: 355px;
+  height: 451px;
+  left: 294px;
 
-.pricing-content {
-  padding-bottom: 100px;
 }
-
-.head-png {
-  position: absolute;
-  width: 100%;
-  height: 500%;
-  left: 20%;
-}
-
-.pricing-column {
+.pricing-column{
   padding: 3% 2%;
+}
+.mobile-app{
+  position: absolute;
+  bottom: 1px;
+
+
 }
